@@ -1,5 +1,5 @@
 import { RESTDataSource } from 'apollo-datasource-rest'
-import { GOOGLE_BOOKS_API_URL, VOLUMES_ENDPOINT } from './../../constants'
+import { GOOGLE_BOOKS_API_URL, VOLUMES_ENDPOINT } from '../../constants'
 
 export class VolumesDataSource extends RESTDataSource{
     constructor(){

@@ -1,1 +1,1 @@
-export * from './books.schema'
+export * from './volumes.schema'
