@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "tsc && nodemon dist/index.js"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.5.1",
+    "apollo-server": "^3.6.2",
+    "graphql": "^16.3.0"
+  }
+}
