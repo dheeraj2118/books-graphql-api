@@ -1,7 +1,7 @@
 const { ApolloServer } = require("apollo-server");
-import { volumesSchema } from "./src/schemas/books.schema";
-import { volumesResolver } from "./src/resolvers/volumes.resolver";
-import { VolumesDataSource } from "./src/datasources/books.datasource";
+import { volumesSchema } from "./src/schemas";
+import { volumesResolver } from "./src/resolvers";
+import { VolumesDataSource } from "./src/datasources";
 
 
 async function startApolloServer(typeDefs:any, resolvers:any) {
